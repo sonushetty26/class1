@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+//Library import
+import  React from 'react'
+import Button from './components/Button'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+//component body  -> functional , const arrow , const , functional , class
+         function App(props){
+          return(
+            <div>
+              <h1>JSX part of the React</h1>
+              <button>Click Me</button>
+              <Button/>
+            </div>
+          )
+         }
+        
+ // default exports
+ export default App        
 
-export default App;
+
+
